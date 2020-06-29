@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Result</title>
+  <link href="/static/css/bootstrap.min1.css" rel="stylesheet">
+  <link href="/static/css/font-awesome.min1.css" rel="stylesheet" type="text/css">
+  <link href="/static/css/sb-admin.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark">
+  <div class="container">
+    <div class="card card-register mx-auto mt-5">
+      <div class="card-header">Result</div>
+      <div class="card-body">
+        <form method="POST"  action="/validate">
+		<input type="hidden" name="test_id">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col-md-12">
+			  <table>
+			  <label for="exampleInputName">Feedback</label>
+				<th>{{feedback}}</th>
+				<th>{{feedback1}}</th>
+				</table>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="/static/js/jquery.min1.js"></script>
+  <script src="/static/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/js/jquery.easing.min.js"></script>
+</body>
+
+</html>
+

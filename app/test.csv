@@ -1,0 +1,17 @@
+,premise,hypothesis,target
+2,Calcite crystals are flaky and salt crystals were not flaky. They are square instead.,The crystals have different shapes. Salt crystals are square with little Xs. The calcite crystals are shaped like needles (long and skinny).,incorrect
+4,She make a solution because she put eggshells into the cup and covered.,A solution was created when the eggshells disappeared (dissolved) and the mixture ended up as a clear liquid.,incorrect
+8,its working,the terminals are not connected,contradictory
+9,It is not a complete circuit.,"The circuit does not include both contact points on the bulb holder, so the electricity can not go through the bulb.",contradictory
+10,Celsius.,Bill must have been using degrees Celsius if 28 is a warm temperature.,correct
+12,they are zero,"Terminals 1, 2 and 3 are connected to the negative battery terminal",incorrect
+15,i do not know,there is a closed path containing both the bulb and a battery,incorrect
+16,I think different hands size.,Greta and Andre have different sized hands.,correct
+21,contain in a closed path,If C burns out then A and B are still in a closed path with the battery,incorrect
+22,whether there is a closed path with a battery,If a bulb and a switch are in the same path the switch affects the bulb,incorrect
+25,That it stay the scratch.,"The harder mineral will leave a scratch on the less hard mineral. If the black mineral is harder, the brown mineral will have a scratch.",incorrect
+42,it makes the path open,the open switch creates a gap,correct
+43,the circuit is short,the battery is damaged,correct
+44,"because terminals 4, 5, and 6 are connected to the positive battery terminal","Terminals 4, 5 and 6 are not connected to the negative battery terminal",correct
+50,They both start off with 0. And they both have effort in it.,"If the effort is applied farther from the fulcrum, less effort will lift the load.",incorrect
+51,because it was contained in a closed path to the battery.,Bulb A was still contained in the same closed path with the battery.,correct

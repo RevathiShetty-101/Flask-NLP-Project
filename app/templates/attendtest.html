@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Attend Test</title>
+	<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+    <script type="text/javascript" href="static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" href="static/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="static/css/w3.css"/>
+</head>
+
+
+<body background="../static/css/images/banner.jpg">
+
+	<nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+
+            <a class="navbar-brand">Welcome {{ current_user.name }} ! </a>
+            </div>
+            <ul class="nav navbar-nav">
+                 <li class="active"><a href="#">Test</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/showStudentProfile"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+                <li><a href="/logout"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+		<div id="wrapper" class="animate form w3-light-gray w3-section w3-padding w3-round w3-border">
+
+
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<center><h1> {{ t.test_name}} </h1><br>
+				</div>
+				<div class="col-md-4"></div>
+			</div>
+
+
+			<div class="container">
+				<form id="addtestform" action="/validate" method="POST" autocomplete="on">	
+					    <div class="row">
+						<div class="col-md-4">
+							<h3> Big Questions : </h3><br>
+						</div>
+						<div class="col-md-4"></div>
+						<div class="col-md-4"></div>
+					</div>
+					
+                    <input type="hidden" name="userid" value="{{current_user.user_id}}">
+					<input type="hidden" name="tesid" value="{{t.q_id}}">
+					
+					<div class="row">
+                    	{{ b1.q_desc }} 
+                    </div>
+                    <div class="row">
+						<textarea id="b1" rows="6" cols="120" name="b1" > </textarea>
+                    </div>
+	      			<br>
+	      			<br>
+					<div class="row">
+						<div class="col-md-4"></div>
+						<div class="col-md-4">
+							<button type="submit" form="addtestform" class="btn btn-primary btn-block">Submit
+							</button>
+						</div>
+						</center>
+						<div class="col-md-4"></div>
+					</div>
+			</div>
+		</div>
+</body>
+</html>
